@@ -22,7 +22,7 @@ const Education: React.FC<EducationProps> = ({ items }) => {
             <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 mb-2">
               {item.period}
             </span>
-            <h3 className="text-lg font-bold text-slate-800 dark:text-slate-100 leading-tight mb-1">
+            <h3 className="text-lg font-bold text-slate-900 dark:text-white leading-tight mb-1">
               {item.school}
             </h3>
             <p className="text-slate-600 dark:text-slate-400 text-sm">{item.department}</p>

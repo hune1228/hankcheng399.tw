@@ -47,7 +47,7 @@ const ProjectsAwards: React.FC<Props> = ({ projects, awards, titles }) => {
                         <div className="flex-1 flex flex-col">
                             <div className="mb-6">
                                 <div className="flex justify-between items-start gap-4">
-                                    <h4 className="text-2xl font-bold text-slate-800 dark:text-slate-100 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                                    <h4 className="text-2xl font-bold text-slate-900 dark:text-white leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                                         {project.title}
                                     </h4>
                                     <ArrowUpRight className="text-slate-300 dark:text-slate-600 group-hover:text-blue-500 dark:group-hover:text-blue-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300" size={28} />

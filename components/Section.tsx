@@ -20,7 +20,7 @@ const Section: React.FC<SectionProps> = ({ children, id, title, className = "" }
             transition={{ duration: 0.5 }}
             className="mb-12 text-center md:text-left"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-slate-100 relative inline-block">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white relative inline-block">
               {title}
               <span className="absolute -bottom-2 left-0 w-1/2 h-1 bg-blue-500 rounded-full"></span>
             </h2>

@@ -125,7 +125,7 @@ const Experience: React.FC<ExperienceProps> = ({ items }) => {
                     {/* Decorative Background Gradient */}
                     <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-150 duration-700"></div>
 
-                    <h3 className="text-xl md:text-2xl font-bold text-slate-800 dark:text-slate-100 mb-1">{item.organization}</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-1">{item.organization}</h3>
                     {item.department && (
                         <p className="text-slate-500 dark:text-slate-400 font-medium text-sm mb-3">{item.department}</p>
                     )}
