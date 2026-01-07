@@ -44,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = ({ data, lang, setLang, darkMode, toggleTh
           {/* Logo */}
           <div 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-2xl font-bold cursor-pointer text-slate-800 dark:text-white flex items-center gap-2 group select-none"
+              className="text-2xl font-bold cursor-pointer text-slate-900 dark:text-white flex items-center gap-2 group select-none"
           >
             <div className="w-9 h-9 rounded bg-gradient-to-br from-blue-500 to-indigo-600 text-white flex items-center justify-center font-bold shadow-lg group-hover:scale-110 transition-transform">
               H
@@ -93,7 +93,7 @@ const Navbar: React.FC<NavbarProps> = ({ data, lang, setLang, darkMode, toggleTh
 
           {/* Mobile Toggle */}
           <button 
-            className="md:hidden p-2 text-slate-700 dark:text-slate-200 z-50 relative"
+            className="md:hidden p-2 text-slate-900 dark:text-white z-50 relative"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -127,10 +127,10 @@ const Navbar: React.FC<NavbarProps> = ({ data, lang, setLang, darkMode, toggleTh
                     <button 
                       key={item.href}
                       onClick={() => scrollTo(item.href)}
-                      className="text-xl font-bold text-slate-800 dark:text-slate-100 flex items-center justify-between group"
+                      className="text-xl font-bold text-slate-900 dark:text-white flex items-center justify-between w-full text-left group"
                     >
                       {item.label}
-                      <ArrowRight size={20} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-500" />
+                      <ArrowRight size={20} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-500 shrink-0" />
                     </button>
                  ))}
                </div>
