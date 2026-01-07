@@ -1,7 +1,7 @@
 import { ResumeData } from './types';
 
 const contact = {
-  name: "鄭弘易 (Hank Cheng)",
+  name: "鄭弘易 (Hank Cheng, 小弘)",
   email: "hi@hankcheng399.tw",
   linkedin: "linkedin.com/in/hankcheng399",
   github: "github.com/hune1228",

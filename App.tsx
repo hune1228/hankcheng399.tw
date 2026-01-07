@@ -54,21 +54,21 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors duration-300 font-sans selection:bg-blue-200 dark:selection:bg-blue-900">
       <Helmet>
         <html lang={lang === "zh" ? "zh-TW" : "en"} />
-        <title>{data.contact.name} - Resume</title>
+        <title>{data.contact.name} - About me</title>
         <meta
           name="description"
           content={
             lang === "zh"
-              ? `${data.contact.name} 的個人履歷。國立彰化師範大學資訊工程學系背景，專長於網路工程、全端開發與開源社群貢獻。`
-              : `Resume of ${data.contact.name} - Network Engineer, Full Stack Developer, and Open Source Contributor.`
+              ? `${data.contact.name} - About me`
+              : `About ${data.contact.name} - Network Engineer.`
           }
         />
         <meta
           name="keywords"
           content={
             lang === "zh"
-              ? "鄭弘易, Hank Cheng, 履歷, CV, 彰化師範大學, 資訊工程, 網路工程師, 全端工程師, 系統管理"
-              : "Hank Cheng, Resume, CV, NCUE, CSIE, Network Engineer, Full Stack Developer, System Administration"
+              ? "鄭弘易, Hank Cheng, 小弘, HankCheng399"
+              : "鄭弘易, Hank Cheng, 小弘, HankCheng399"
           }
         />
         <meta name="author" content={data.contact.name} />
@@ -81,8 +81,8 @@ const App: React.FC = () => {
           property="og:description"
           content={
             lang === "zh"
-              ? `${data.contact.name} 的個人履歷。國立彰化師範大學資訊工程學系背景，專長於網路工程、全端開發與開源社群貢獻。`
-              : `Resume of ${data.contact.name} - Network Engineer, Full Stack Developer, and Open Source Contributor.`
+              ? `${data.contact.name} - About me`
+              : `About ${data.contact.name} - Network Engineer.`
           }
         />
         <meta property="og:image" content="https://hankcheng399.tw/og-image.png" />
@@ -95,8 +95,8 @@ const App: React.FC = () => {
           property="twitter:description"
           content={
             lang === "zh"
-              ? `${data.contact.name} 的個人履歷。國立彰化師範大學資訊工程學系背景，專長於網路工程、全端開發與開源社群貢獻。`
-              : `Resume of ${data.contact.name} - Network Engineer, Full Stack Developer, and Open Source Contributor.`
+              ? `${data.contact.name} - About me`
+              : `About ${data.contact.name} - Network Engineer.`
           }
         />
         <meta property="twitter:image" content="https://hankcheng399.tw/og-image.png" />
@@ -197,8 +197,11 @@ const App: React.FC = () => {
 
           <div className="text-slate-500 dark:text-slate-400 text-sm">
             <p className="mb-2">
-              © {new Date().getFullYear()} Hank Cheng (鄭弘易). All rights
+              © {new Date().getFullYear()} Hank Cheng (鄭弘易, 小弘). All rights
               reserved.
+            </p>
+            <p>
+              Special thanks to Tai-Ming Chen.
             </p>
             <p className="opacity-70">
               Designed & Built with React, Tailwind CSS & Framer Motion.
