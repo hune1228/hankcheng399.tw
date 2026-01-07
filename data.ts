@@ -325,7 +325,7 @@ const communityEn = [
       { role: "External Consultant, IT Section, General Affairs Dept (2025.06.23 ~ Current)", organization: "NCUE Student Association" },
       { role: "Documentation Team Member", organization: "MOPCON 2025" },
       { role: "General Affairs Team Member", organization: "HITCON 2025" },
-      { role: "Broadcast Team Lead", organization: "COSCUP 2025" },
+      { role: "Streaming Team Lead", organization: "COSCUP 2025" },
       { role: "Volunteer", organization: "TWNOG 6 BGP Workshop" },
       { role: "Image Team Lead & Infrastructure Team Member", organization: "TWNOG 6" },
       { role: "Broadcast Team Lead", organization: "SITCON 2025" },
@@ -338,7 +338,7 @@ const communityEn = [
       { role: "Secretary General, Student Parliament", organization: "NCUE Student Association 28th Term" },
       { role: "Minister of General Affairs", organization: "NCUE Student Association 28th Term" },
       { role: "General Affairs Team Member", organization: "HITCON CMT 2024" },
-      { role: "Broadcast Team Member", organization: "COSCUP 2024" },
+      { role: "Streaming Team Member", organization: "COSCUP 2024" },
       { role: "Attendee", organization: "TWNOG 5" },
       { role: "Broadcast Team Member", organization: "SITCON 2024" },
     ]
