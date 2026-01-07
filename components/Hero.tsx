@@ -78,15 +78,15 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
                 </div>
 
                 <div className="flex flex-wrap justify-center md:justify-start gap-6 pt-6">
-                  <a href={`mailto:${data.contact.email}`} className="btn-social group">
+                  <a href={`mailto:${data.contact.email}`} className="flex flex-col items-center justify-center gap-2 w-24 h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
                     <Mail size={32} className="group-hover:scale-110 transition-transform duration-300" />
                     <span className="text-sm font-semibold select-none">Email</span>
                   </a>
-                  <a href={`https://${data.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="btn-social group">
+                  <a href={`https://${data.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-2 w-24 h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
                     <Linkedin size={32} className="group-hover:scale-110 transition-transform duration-300" />
                     <span className="text-sm font-semibold select-none">LinkedIn</span>
                   </a>
-                  <a href={`https://${data.contact.github}`} target="_blank" rel="noopener noreferrer" className="btn-social group">
+                  <a href={`https://${data.contact.github}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-2 w-24 h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
                     <Github size={32} className="group-hover:scale-110 transition-transform duration-300" />
                     <span className="text-sm font-semibold select-none">GitHub</span>
                   </a>
@@ -112,9 +112,6 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
       </motion.div>
 
       <style jsx="true">{`
-        .btn-social {
-          @apply flex flex-col items-center justify-center gap-2 w-24 h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1;
-        }
         .perspective-1000 {
           perspective: 1000px;
         }
