@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hankcheng399.tw/sitemap.xml

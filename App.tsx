@@ -57,8 +57,51 @@ const App: React.FC = () => {
         <title>{data.contact.name} - Resume</title>
         <meta
           name="description"
-          content={`Resume of ${data.contact.name} - Network Engineer, Full Stack Developer, and Open Source Contributor.`}
+          content={
+            lang === "zh"
+              ? `${data.contact.name} 的個人履歷。國立彰化師範大學資訊工程學系背景，專長於網路工程、全端開發與開源社群貢獻。`
+              : `Resume of ${data.contact.name} - Network Engineer, Full Stack Developer, and Open Source Contributor.`
+          }
         />
+        <meta
+          name="keywords"
+          content={
+            lang === "zh"
+              ? "鄭弘易, Hank Cheng, 履歷, CV, 彰化師範大學, 資訊工程, 網路工程師, 全端工程師, 系統管理"
+              : "Hank Cheng, Resume, CV, NCUE, CSIE, Network Engineer, Full Stack Developer, System Administration"
+          }
+        />
+        <meta name="author" content={data.contact.name} />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hankcheng399.tw/" />
+        <meta property="og:title" content={`${data.contact.name} - Resume`} />
+        <meta
+          property="og:description"
+          content={
+            lang === "zh"
+              ? `${data.contact.name} 的個人履歷。國立彰化師範大學資訊工程學系背景，專長於網路工程、全端開發與開源社群貢獻。`
+              : `Resume of ${data.contact.name} - Network Engineer, Full Stack Developer, and Open Source Contributor.`
+          }
+        />
+        <meta property="og:image" content="https://hankcheng399.tw/og-image.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://hankcheng399.tw/" />
+        <meta property="twitter:title" content={`${data.contact.name} - Resume`} />
+        <meta
+          property="twitter:description"
+          content={
+            lang === "zh"
+              ? `${data.contact.name} 的個人履歷。國立彰化師範大學資訊工程學系背景，專長於網路工程、全端開發與開源社群貢獻。`
+              : `Resume of ${data.contact.name} - Network Engineer, Full Stack Developer, and Open Source Contributor.`
+          }
+        />
+        <meta property="twitter:image" content="https://hankcheng399.tw/og-image.png" />
+
+        <link rel="canonical" href="https://hankcheng399.tw/" />
       </Helmet>
 
       <Navbar
