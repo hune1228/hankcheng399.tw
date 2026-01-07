@@ -127,10 +127,10 @@ const Navbar: React.FC<NavbarProps> = ({ data, lang, setLang, darkMode, toggleTh
                     <button 
                       key={item.href}
                       onClick={() => scrollTo(item.href)}
-                      className="text-xl font-bold text-slate-900 dark:text-white flex items-center justify-between group"
+                      className="text-xl font-bold text-slate-900 dark:text-white flex items-center justify-between w-full text-left group"
                     >
                       {item.label}
-                      <ArrowRight size={20} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-500" />
+                      <ArrowRight size={20} className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-500 shrink-0" />
                     </button>
                  ))}
                </div>
