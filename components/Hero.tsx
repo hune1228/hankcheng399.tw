@@ -28,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
           <motion.div
             whileHover={{ rotateX: 1, rotateY: 1 }}
             transition={{ type: "spring", stiffness: 200, damping: 20 }}
-            className="bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl border border-slate-200/50 dark:border-slate-700/50 rounded-3xl shadow-2xl p-8 md:p-16 transform-style-3d relative overflow-hidden"
+            className="bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl border border-slate-200/50 dark:border-slate-700/50 rounded-3xl shadow-2xl p-6 md:p-16 transform-style-3d relative overflow-hidden"
           >
              {/* Decorative top border */}
              <motion.div 
@@ -77,18 +77,18 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
                   />
                 </div>
 
-                <div className="flex flex-wrap justify-center md:justify-start gap-6 pt-6">
-                  <a href={`mailto:${data.contact.email}`} className="flex flex-col items-center justify-center gap-2 w-24 h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
-                    <Mail size={32} className="group-hover:scale-110 transition-transform duration-300" />
-                    <span className="text-sm font-semibold select-none">Email</span>
+                <div className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-6 pt-6">
+                  <a href={`mailto:${data.contact.email}`} className="flex flex-col items-center justify-center gap-1 md:gap-2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
+                    <Mail className="w-6 h-6 md:w-8 md:h-8 group-hover:scale-110 transition-transform duration-300" />
+                    <span className="text-xs md:text-sm font-semibold select-none">Email</span>
                   </a>
-                  <a href={`https://${data.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-2 w-24 h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
-                    <Linkedin size={32} className="group-hover:scale-110 transition-transform duration-300" />
-                    <span className="text-sm font-semibold select-none">LinkedIn</span>
+                  <a href={`https://${data.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-1 md:gap-2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
+                    <Linkedin className="w-6 h-6 md:w-8 md:h-8 group-hover:scale-110 transition-transform duration-300" />
+                    <span className="text-xs md:text-sm font-semibold select-none">LinkedIn</span>
                   </a>
-                  <a href={`https://${data.contact.github}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-2 w-24 h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
-                    <Github size={32} className="group-hover:scale-110 transition-transform duration-300" />
-                    <span className="text-sm font-semibold select-none">GitHub</span>
+                  <a href={`https://${data.contact.github}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-1 md:gap-2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
+                    <Github className="w-6 h-6 md:w-8 md:h-8 group-hover:scale-110 transition-transform duration-300" />
+                    <span className="text-xs md:text-sm font-semibold select-none">GitHub</span>
                   </a>
                 </div>
               </div>
