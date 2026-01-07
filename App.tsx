@@ -115,7 +115,7 @@ const App: React.FC = () => {
 
       <footer
         id="contact"
-        className="py-12 bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300"
+        className="py-12 bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300 select-none"
       >
         <div className="max-w-4xl mx-auto px-4 flex flex-col items-center text-center">
           <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-6">
