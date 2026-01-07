@@ -64,7 +64,7 @@ export default function ScrollToTop({ lang, darkMode }: ScrollToTopProps) {
     return (
         <div
             className={[
-                'fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50',
+                'fixed bottom-4 right-4 md:bottom-6 md:right-6 z-30',
                 'transition-opacity duration-300',
                 visible ? 'opacity-100' : 'opacity-0 pointer-events-none',
             ].join(' ')}
