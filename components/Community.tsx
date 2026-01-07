@@ -94,7 +94,7 @@ const Community: React.FC<CommunityProps> = ({ groups }) => {
                             </div>
 
                             <div>
-                                <h4 className="font-bold text-slate-800 dark:text-slate-100 leading-tight mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-lg">
+                                <h4 className="font-bold text-slate-900 dark:text-white leading-tight mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-lg">
                                     {item.role}
                                 </h4>
                                 {item.organization && (
