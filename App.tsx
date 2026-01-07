@@ -200,7 +200,7 @@ const App: React.FC = () => {
               © {new Date().getFullYear()} Hank Cheng (鄭弘易, 小弘). All rights
               reserved.
             </p>
-            <p>
+            <p className="mb-2">
               Special thanks to Tai-Ming Chen.
             </p>
             <p className="opacity-70">
