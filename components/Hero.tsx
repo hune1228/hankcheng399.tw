@@ -65,8 +65,6 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
                     options={{
                       strings: [
                         'Network Engineer',
-                        'Full Stack Developer',
-                        'Open Source Contributor',
                         'Student @ NCUE'
                       ],
                       autoStart: true,
