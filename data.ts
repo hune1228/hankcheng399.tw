@@ -44,6 +44,27 @@ const educationEn = [
 
 const experienceZh = [
   {
+    period: "2020年10月22日 ~ 2021年2月28日",
+    organization: "國立彰化師範大學 資訊工程學系",
+    position: "電腦教室維護管理",
+    description: [
+      "重新設計並優化兩間電腦教室 (約 100 台 PC) 的網路拓樸",
+      "使用 Cisco Route-map 與防火牆 NAT 策略整合網路路由"
+    ],
+    techStack: ["Network Topology", "Cisco Route-map", "Firewall", "NAT"]
+  },
+  {
+    period: "2021年8月 ~ 2024年7月",
+    organization: "國立彰化師範大學 第十宿舍",
+    position: "樓長 / 監控網路整合",
+    description: [
+      "規劃並協助部署進德與寶山校區宿舍 IP 監控與網路系統 (涵蓋約 3000 名學生)",
+      "整合多個監控攝影機節點至統一監控介面",
+      "與行政人員合作排除網路不穩與影像傳輸問題"
+    ],
+    techStack: ["IP Surveillance", "Network Integration", "Troubleshooting"]
+  },
+  {
     period: "2025",
     organization: "TWNOG 6 Conference Network",
     position: "網路架構與 IDC 管理",
@@ -63,25 +84,17 @@ const experienceZh = [
     ]
   },
   {
-    period: "2021年8月 ~ 2024年7月",
-    organization: "國立彰化師範大學 第十宿舍",
-    position: "樓長 / 監控網路整合",
+    period: "2019年8月1日 ~ 2025年6月15日",
+    organization: "國立彰化師範大學 圖書與資訊處",
+    department: "網路與資訊系統管理組",
+    position: "電腦維修 / 資訊助理",
     description: [
-      "規劃並協助部署進德與寶山校區宿舍 IP 監控與網路系統 (涵蓋約 3000 名學生)",
-      "整合多個監控攝影機節點至統一監控介面",
-      "與行政人員合作排除網路不穩與影像傳輸問題"
+      "協助維護與排除校園網路基礎設施故障，尖峰時段頻寬約 2 ~ 2.5 Gbps",
+      "支援交換器安裝、DNS/SSL 憑證管理及 IP 路由策略",
+      "協助學生活動中心骨幹網路升級 (100Mbps -> 20Gbps)",
+      "系所電腦教室網路架構優化，總頻寬由 300Mbps 提升至 2Gbps"
     ],
-    techStack: ["IP Surveillance", "Network Integration", "Troubleshooting"]
-  },
-  {
-    period: "2020年10月22日 ~ 2021年2月28日",
-    organization: "國立彰化師範大學 資訊工程學系",
-    position: "電腦教室維護管理",
-    description: [
-      "重新設計並優化兩間電腦教室 (約 100 台 PC) 的網路拓樸",
-      "使用 Cisco Route-map 與防火牆 NAT 策略整合網路路由"
-    ],
-    techStack: ["Network Topology", "Cisco Route-map", "Firewall", "NAT"]
+    techStack: ["Cisco Switch", "Network Troubleshooting", "DNS", "SSL", "IP Routing"]
   },
   {
     period: "2020年7月 ~ 現在",
@@ -98,19 +111,6 @@ const experienceZh = [
     techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
   },
   {
-    period: "2019年8月1日 ~ 2025年6月15日",
-    organization: "國立彰化師範大學 圖書與資訊處",
-    department: "網路與資訊系統管理組",
-    position: "電腦維修 / 資訊助理",
-    description: [
-      "協助維護與排除校園網路基礎設施故障，尖峰時段頻寬約 2 ~ 2.5 Gbps",
-      "支援交換器安裝、DNS/SSL 憑證管理及 IP 路由策略",
-      "協助學生活動中心骨幹網路升級 (100Mbps -> 20Gbps)",
-      "系所電腦教室網路架構優化，總頻寬由 300Mbps 提升至 2Gbps"
-    ],
-    techStack: ["Cisco Switch", "Network Troubleshooting", "DNS", "SSL", "IP Routing"]
-  },
-  {
     period: "2026年2月 ~ 現在",
     organization: "菁智科技股份有限公司",
     position: "網路工程師",
@@ -121,6 +121,27 @@ const experienceZh = [
 ];
 
 const experienceEn = [
+  {
+    period: "October 2020 – February 2021",
+    organization: "NCUE Dept of CSIE",
+    position: "Computer Lab Administrator",
+    description: [
+      "Redesigned and optimized network topology for two computer labs (~100 PCs)",
+      "Consolidated internet routing with firewall-based NAT policies using Cisco route-map"
+    ],
+    techStack: ["Network Topology", "Cisco Route-map", "Firewall", "NAT"]
+  },
+  {
+    period: "July 2021 – July 2024",
+    organization: "NCUE Dormitory 10",
+    position: "Floor Manager / Surveillance Network Integration",
+    description: [
+      "Planned and deployed IP surveillance and network systems for Jinde and Baoshan campuses (approx. 3000 students)",
+      "Integrated multiple surveillance nodes into a unified monitoring interface",
+      "Troubleshot network stability and video transmission reliability alongside administrative staff"
+    ],
+    techStack: ["IP Surveillance", "Network Integration", "Troubleshooting"]
+  },
   {
     period: "2025",
     organization: "TWNOG 6 Conference Network",
@@ -142,41 +163,6 @@ const experienceEn = [
     ]
   },
   {
-    period: "July 2021 – July 2024",
-    organization: "NCUE Dormitory 10",
-    position: "Floor Manager / Surveillance Network Integration",
-    description: [
-      "Planned and deployed IP surveillance and network systems for Jinde and Baoshan campuses (approx. 3000 students)",
-      "Integrated multiple surveillance nodes into a unified monitoring interface",
-      "Troubleshot network stability and video transmission reliability alongside administrative staff"
-    ],
-    techStack: ["IP Surveillance", "Network Integration", "Troubleshooting"]
-  },
-  {
-    period: "October 2020 – February 2021",
-    organization: "NCUE Dept of CSIE",
-    position: "Computer Lab Administrator",
-    description: [
-      "Redesigned and optimized network topology for two computer labs (~100 PCs)",
-      "Consolidated internet routing with firewall-based NAT policies using Cisco route-map"
-    ],
-    techStack: ["Network Topology", "Cisco Route-map", "Firewall", "NAT"]
-  },
-  {
-    period: "July 2020 – Present",
-    organization: "NCUE Student Association",
-    position: "Network and Service Infrastructure Lead",
-    description: [
-      "Established on-campus IP-based network and firewall (FortiGate) with 2 Gbps upstream bandwidth",
-      "Acquired Public IPv4 /29 block for external connectivity via cross-departmental communication",
-      "Set up Hyper-V & Proxmox VE VMs and internal services (attendance, booking systems) on GPU workstations and bare metal servers",
-      "Built Google Sheets API-integrated tools for financial transparency",
-      "Implemented secure pipeline using Cloudflare CDN and NGINX Reverse Proxy",
-      "Managed DNS via Cloudflare and deployed Google Workspace"
-    ],
-    techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
-  },
-  {
     period: "August 2019 – June 2025",
     organization: "NCUE Library and Information Services",
     department: "Network and Information System Management Division",
@@ -190,7 +176,21 @@ const experienceEn = [
     techStack: ["Cisco Switch", "Network Troubleshooting", "DNS", "SSL", "IP Routing"]
   },
   {
-    period: "February 2026 – Present",
+    period: "July 2020 – Current",
+    organization: "NCUE Student Association",
+    position: "Network and Service Infrastructure Lead",
+    description: [
+      "Established on-campus IP-based network and firewall (FortiGate) with 2 Gbps upstream bandwidth",
+      "Acquired Public IPv4 /29 block for external connectivity via cross-departmental communication",
+      "Set up Hyper-V & Proxmox VE VMs and internal services (attendance, booking systems) on GPU workstations and bare metal servers",
+      "Built Google Sheets API-integrated tools for financial transparency",
+      "Implemented secure pipeline using Cloudflare CDN and NGINX Reverse Proxy",
+      "Managed DNS via Cloudflare and deployed Google Workspace"
+    ],
+    techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
+  },
+  {
+    period: "February 2026 – Current",
     organization: "StepWise Technology Co.",
     position: "Network Engineer",
     description: [
