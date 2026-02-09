@@ -54,7 +54,7 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors duration-300 font-sans selection:bg-blue-200 dark:selection:bg-blue-900">
       <Helmet>
         <html lang={lang === "zh" ? "zh-TW" : "en"} />
-        <title>{data.contact.name} - About me</title>
+        <title>小弘 - About me</title>
         <meta
           name="description"
           content={
@@ -76,7 +76,7 @@ const App: React.FC = () => {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://hankcheng399.tw/" />
-        <meta property="og:title" content={`${data.contact.name} - Resume`} />
+        <meta property="og:title" content="小弘 - About me" />
         <meta
           property="og:description"
           content={
@@ -90,7 +90,7 @@ const App: React.FC = () => {
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://hankcheng399.tw/" />
-        <meta property="twitter:title" content={`${data.contact.name} - Resume`} />
+        <meta property="twitter:title" content="小弘 - About me" />
         <meta
           property="twitter:description"
           content={
