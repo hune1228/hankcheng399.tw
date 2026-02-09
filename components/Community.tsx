@@ -78,6 +78,7 @@ const Community: React.FC<CommunityProps> = ({ groups }) => {
                                       item.organization?.includes('DSC') ? 'bg-blue-50 text-blue-600 border border-blue-100' :
                                       item.organization?.includes('TWNOG') ? 'bg-blue-50 text-blue-600 border border-blue-100' :
                                       item.organization?.includes('學生會') ? 'bg-pink-50 text-pink-600 border border-pink-100' :
+                                      item.organization?.includes('NCUE Student Association') ? 'bg-pink-50 text-pink-600 border border-pink-100' :
                                       'bg-slate-50 text-slate-600 dark:bg-slate-700 dark:text-slate-300 border border-slate-100 dark:border-slate-600'}
                                 `}>
                                     {item.organization?.includes('HITCON') ? <img src="/community-image/HITCON.jpeg" /> : 
@@ -88,6 +89,7 @@ const Community: React.FC<CommunityProps> = ({ groups }) => {
                                      item.organization?.includes('DSC') ? <img src="/community-image/GDG.svg" /> :
                                      item.organization?.includes('TWNOG') ? <img src="/community-image/TWNOG.png" /> :
                                      item.organization?.includes('學生會') ? <img src="/community-image/NCUESA.png" /> :
+                                     item.organization?.includes('NCUE Student Association') ? <img src="/community-image/NCUESA.png" /> :
                                      item.organization ? item.organization[0].toUpperCase() : '•'}
                                 </div>
                                 
