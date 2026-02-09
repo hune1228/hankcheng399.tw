@@ -81,15 +81,15 @@ const Community: React.FC<CommunityProps> = ({ groups }) => {
                                       item.organization?.includes('NCUE Student Association') ? 'bg-pink-50 text-pink-600 border border-pink-100' :
                                       'bg-slate-50 text-slate-600 dark:bg-slate-700 dark:text-slate-300 border border-slate-100 dark:border-slate-600'}
                                 `}>
-                                    {item.organization?.includes('HITCON') ? <img src="/community-image/HITCON.jpeg" /> : 
-                                     item.organization?.includes('COSCUP') ? <img src="/community-image/COSCUP.png" /> :
-                                     item.organization?.includes('SITCON') ? <img src="/community-image/SITCON.svg" /> :
-                                     item.organization?.includes('MOPCON') ? <img src="/community-image/MOPCON.svg" /> :
-                                     item.organization?.includes('GDG') ? <img src="/community-image/GDG.svg" /> :
-                                     item.organization?.includes('DSC') ? <img src="/community-image/GDG.svg" /> :
-                                     item.organization?.includes('TWNOG') ? <img src="/community-image/TWNOG.png" /> :
-                                     item.organization?.includes('學生會') ? <img src="/community-image/NCUESA.png" /> :
-                                     item.organization?.includes('NCUE Student Association') ? <img src="/community-image/NCUESA.png" /> :
+                                    {item.organization?.includes('HITCON') ? <img src="/community-image/HITCON.jpeg" className="w-full h-full object-contain p-2" /> : 
+                                     item.organization?.includes('COSCUP') ? <img src="/community-image/COSCUP.png" className="w-full h-full object-contain p-2" /> :
+                                     item.organization?.includes('SITCON') ? <img src="/community-image/SITCON.svg" className="w-full h-full object-contain p-2" /> :
+                                     item.organization?.includes('MOPCON') ? <img src="/community-image/MOPCON.svg" className="w-full h-full object-contain p-2" /> :
+                                     item.organization?.includes('GDG') ? <img src="/community-image/GDG.svg" className="w-full h-full object-contain p-2" /> :
+                                     item.organization?.includes('DSC') ? <img src="/community-image/GDG.svg" className="w-full h-full object-contain p-2" /> :
+                                     item.organization?.includes('TWNOG') ? <img src="/community-image/TWNOG.png" className="w-full h-full object-contain p-2" /> :
+                                     item.organization?.includes('學生會') ? <img src="/community-image/NCUESA.png" className="w-full h-full object-contain p-2" /> :
+                                     item.organization?.includes('NCUE Student Association') ? <img src="/community-image/NCUESA.png" className="w-full h-full object-contain p-2" /> :
                                      item.organization ? item.organization[0].toUpperCase() : '•'}
                                 </div>
                                 
