@@ -73,15 +73,21 @@ const Community: React.FC<CommunityProps> = ({ groups }) => {
                                     ${item.organization?.includes('HITCON') ? 'bg-orange-50 text-orange-600 border border-orange-100' : 
                                       item.organization?.includes('COSCUP') ? 'bg-green-50 text-green-600 border border-green-100' :
                                       item.organization?.includes('SITCON') ? 'bg-purple-50 text-purple-600 border border-purple-100' :
+                                      item.organization?.includes('MOPCON') ? 'bg-purple-50 text-purple-600 border border-purple-100' :
                                       item.organization?.includes('GDG') ? 'bg-blue-50 text-blue-600 border border-blue-100' :
+                                      item.organization?.includes('DSC') ? 'bg-blue-50 text-blue-600 border border-blue-100' :
+                                      item.organization?.includes('TWNOG') ? 'bg-blue-50 text-blue-600 border border-blue-100' :
                                       item.organization?.includes('學生會') ? 'bg-pink-50 text-pink-600 border border-pink-100' :
                                       'bg-slate-50 text-slate-600 dark:bg-slate-700 dark:text-slate-300 border border-slate-100 dark:border-slate-600'}
                                 `}>
-                                    {item.organization?.includes('HITCON') ? 'H' : 
-                                     item.organization?.includes('COSCUP') ? 'C' :
-                                     item.organization?.includes('SITCON') ? 'S' :
-                                     item.organization?.includes('GDG') ? 'G' :
-                                     item.organization?.includes('學生會') ? 'SA' :
+                                    {item.organization?.includes('HITCON') ? <img src="/community-image/HITCON.jpeg" /> : 
+                                     item.organization?.includes('COSCUP') ? <img src="/community-image/COSCUP.png" /> :
+                                     item.organization?.includes('SITCON') ? <img src="/community-image/SITCON.svg" /> :
+                                     item.organization?.includes('MOPCON') ? <img src="/community-image/MOPCON.svg" /> :
+                                     item.organization?.includes('GDG') ? <img src="/community-image/GDG.svg" /> :
+                                     item.organization?.includes('DSC') ? <img src="/community-image/GDG.svg" /> :
+                                     item.organization?.includes('TWNOG') ? <img src="/community-image/TWNOG.png" /> :
+                                     item.organization?.includes('學生會') ? <img src="/community-image/NCUESA.png" /> :
                                      item.organization ? item.organization[0].toUpperCase() : '•'}
                                 </div>
                                 
