@@ -10,7 +10,7 @@ const Community: React.FC<CommunityProps> = ({ groups }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   
   // Sorting groups to be oldest first (far-to-near) as requested
-  const sortedGroups = [...groups].sort((a, b) => parseInt(a.year) - parseInt(b.year));
+  const sortedGroups = [...groups].sort((b, a) => parseInt(a.year) - parseInt(b.year));
 
   const { scrollYProgress } = useScroll({
     target: containerRef,

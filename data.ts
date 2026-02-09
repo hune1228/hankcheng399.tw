@@ -109,6 +109,14 @@ const experienceZh = [
       "系所電腦教室網路架構優化，總頻寬由 300Mbps 提升至 2Gbps"
     ],
     techStack: ["Cisco Switch", "Network Troubleshooting", "DNS", "SSL", "IP Routing"]
+  },
+  {
+    period: "2026年2月 ~ 現在",
+    organization: "菁智科技股份有限公司",
+    position: "網路工程師",
+    description: [
+      "南部及臺東地區客戶之網路設備維護"
+    ]
   }
 ];
 
@@ -180,6 +188,14 @@ const experienceEn = [
       "Optimized department computer labs network, increasing total bandwidth from 300 Mbps to 2 Gbps"
     ],
     techStack: ["Cisco Switch", "Network Troubleshooting", "DNS", "SSL", "IP Routing"]
+  },
+  {
+    period: "February 2026 – Present",
+    organization: "StepWise Technology Co.",
+    position: "Network Engineer",
+    description: [
+      "Responsible for network equipment maintainance in southern region and Taitung area"
+    ]
   }
 ];
 
@@ -300,12 +316,6 @@ const communityZh = [
       { role: "學生議會 秘書 (2023.06.07 ~ 2023.07.31)", organization: "國立彰化師範大學學生會 第 26 屆" },
       { role: "行政中心 總務部部長 (2023.02.01 ~ 2023.06.25)", organization: "國立彰化師範大學學生會 第 26 屆" },
       { role: "行政中心 財務部副部長 (2022.06.27 ~ 2023.01.31)", organization: "國立彰化師範大學學生會 第 26 屆" },
-    ]
-  },
-  {
-    year: "2021",
-    items: [
-      { role: "行政中心 財務部部長 (2021.06.28 ~ 2022.06.26)", organization: "國立彰化師範大學學生會 第 25 屆" },
     ]
   },
   {
