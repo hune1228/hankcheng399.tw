@@ -194,7 +194,7 @@ const experienceEn = [
     organization: "StepWise Technology Co.",
     position: "Network Engineer",
     description: [
-      "Responsible for network equipment maintainance in southern region and Taitung area"
+      "Responsible for network equipment maintenance of customers in southern region and Taitung area"
     ]
   }
 ];
