@@ -279,6 +279,12 @@ const awardsEn = [
 
 const communityZh = [
   {
+    year: "2026",
+    items: [
+      { role: "製播組組員", organization: "SITCON 2026" },
+    ]
+  },
+  {
     year: "2025",
     items: [
       { role: "行政中心 總務部資訊組校外顧問 (2025.06.23 ~ Current)", organization: "國立彰化師範大學學生會" },
@@ -329,6 +335,12 @@ const communityZh = [
 ];
 
 const communityEn = [
+  {
+    year: "2026",
+    items: [
+      { role: "Production Team Member", organization: "SITCON 2026" },
+    ]
+  },
   {
     year: "2025",
     items: [
