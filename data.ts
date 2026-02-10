@@ -358,7 +358,7 @@ const communityEn = [
     items: [
       { role: "Secretary General, Student Parliament", organization: "NCUE Student Association 27th Term" },
       { role: "Consultant, General Affairs Dept (2023.06.26 ~ 2023.12.22)", organization: "NCUE Student Association 27th Term" },
-      { role: "President (2022.12.01 - 2024.01.31)", organization: "NCUE Graduate Student Association" },
+      { role: "President (2022.12.01 - 2024.01.31)", organization: "NCUE Union of Graduate Student" },
     ]
   },
   {
