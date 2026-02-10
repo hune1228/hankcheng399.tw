@@ -111,7 +111,7 @@ const experienceZh = [
     techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
   },
   {
-    period: "2026年2月 ~ 現在",
+    period: "2026年2月2日 ~ 現在",
     organization: "菁智科技股份有限公司",
     position: "網路工程師",
     description: [
@@ -155,7 +155,7 @@ const experienceEn = [
     techStack: ["Aruba AP535", "Cisco 3850", "BGP", "Dark Fiber", "Wi-Fi Deployment"]
   },
   {
-    period: "February 2023 ~ July 2025",
+    period: "February 1, 2023 ~ July 31, 2025",
     organization: "NCUE Gender Equity Education Committee",
     position: "10th Student Commissioner",
     description: [
@@ -190,7 +190,7 @@ const experienceEn = [
     techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
   },
   {
-    period: "February 2026 – Current",
+    period: "February 2, 2026 – Current",
     organization: "StepWise Technology Co.",
     position: "Network Engineer",
     description: [
