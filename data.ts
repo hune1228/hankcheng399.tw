@@ -250,7 +250,7 @@ const awardsZh = [
   {
     year: "111 年",
     title: "彰化縣大專優秀青年",
-    organization: "彰化縣政府"
+    organization: "中國青年救國團彰化縣團委會"
   }
 ];
 
@@ -273,7 +273,7 @@ const awardsEn = [
   {
     year: "2022",
     title: "Changhua County Outstanding College Youth",
-    organization: "Changhua County Government"
+    organization: "Changhua County Committee, China Youth Corps"
   }
 ];
 
