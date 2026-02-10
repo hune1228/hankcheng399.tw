@@ -325,6 +325,12 @@ const communityZh = [
     ]
   },
   {
+    year: "2021",
+    items: [
+      { role: "行政中心 財務部部長 (2021.06.28 ~ 2022.06.26)", organization: "國立彰化師範大學學生會 第 25 屆" },
+    ]
+  },
+  {
     year: "2020",
     items: [
       { role: "會眾", organization: "MOPCON 2020" },
