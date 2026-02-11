@@ -166,8 +166,8 @@ const App: React.FC = () => {
           </h3>
           <p className="text-lg text-slate-600 dark:text-slate-300 mb-8 max-w-2xl leading-relaxed">
                   {lang === 'zh' 
-                    ? <>歡迎技術交流與合作機會。<br />若有任何想法或專案需求，歡迎隨時透過 Email 與我聯絡。</>
-                    : <>Welcome technical discussions and collaboration opportunities.<br />Feel free to reach out via email for any inquiries or project needs.</>}
+                    ? <>歡迎技術交流與合作機會。<br />若有任何想法或專案需求，歡迎隨時透過 Email 與我聯絡。<br /><a target="_blank" href="mailto:hi@hankcheng399.tw">hi@hankcheng399.tw</a></>
+                    : <>Welcome technical discussions and collaboration opportunities.<br />Feel free to reach out via email for any inquiries or project needs.<br /><a target="_blank" href="mailto:hi@hankcheng399.tw">hi@hankcheng399.tw</a></>}
           </p>
 
           <div className="flex gap-6 mb-12">
