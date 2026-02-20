@@ -191,7 +191,7 @@ const experienceEn = [
   },
   {
     period: "February 2, 2026 – Current",
-    organization: "StepWise Technology Co.,Ltd",
+    organization: "StepWise Technology Co., Ltd.",
     position: "Network Engineer",
     description: [
       "Responsible for network equipment maintenance of customers in southern region and Taitung area"
