@@ -1,7 +1,7 @@
 import React from 'react';
 import { ResumeData } from '../types';
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, Phone, ChevronDown } from 'lucide-react';
+import { Mail, Linkedin, Github, Phone, ChevronDown, Instagram, Facebook } from 'lucide-react';
 import Typewriter from 'typewriter-effect';
 import NetworkBackground from './NetworkBackground';
 
@@ -87,6 +87,14 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
                   <a href={`https://${data.contact.github}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-1 md:gap-2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
                     <Github className="w-6 h-6 md:w-8 md:h-8 group-hover:scale-110 transition-transform duration-300" />
                     <span className="text-xs md:text-sm font-semibold select-none">GitHub</span>
+                  </a>
+                  <a href={`https://${data.contact.facebook}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-1 md:gap-2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
+                    <Facebook className="w-6 h-6 md:w-8 md:h-8 group-hover:scale-110 transition-transform duration-300" />
+                    <span className="text-xs md:text-sm font-semibold select-none">Facebook</span>
+                  </a>
+                  <a href={`https://${data.contact.instagram}`} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center gap-1 md:gap-2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/30 border border-slate-200 dark:border-slate-700 hover:border-blue-200 dark:hover:border-blue-800 text-slate-700 dark:text-slate-200 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 group">
+                    <Instagram className="w-6 h-6 md:w-8 md:h-8 group-hover:scale-110 transition-transform duration-300" />
+                    <span className="text-xs md:text-sm font-semibold select-none">Instagram</span>
                   </a>
                 </div>
               </div>

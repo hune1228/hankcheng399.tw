@@ -10,7 +10,7 @@ import Education from "./components/Education";
 import ProjectsAwards from "./components/ProjectsAwards";
 import Community from "./components/Community";
 import ScrollToTop from "./components/ScrollToTop";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Facebook, Instagram } from "lucide-react";
 
 const App: React.FC = () => {
   // --- Language State ---
@@ -192,6 +192,22 @@ const App: React.FC = () => {
               className="p-3 bg-slate-100 dark:bg-slate-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/30 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 hover:scale-110 shadow-sm hover:shadow-md"
             >
               <Github size={24} />
+            </a>
+            <a
+              href={`https://${data.contact.facebook}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-slate-100 dark:bg-slate-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/30 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 hover:scale-110 shadow-sm hover:shadow-md"
+            >
+              <Facebook size={24} />
+            </a>
+            <a
+              href={`https://${data.contact.instagram}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-slate-100 dark:bg-slate-800 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/30 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 hover:scale-110 shadow-sm hover:shadow-md"
+            >
+              <Instagram size={24} />
             </a>
           </div>
 

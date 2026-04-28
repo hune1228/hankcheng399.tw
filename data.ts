@@ -5,7 +5,9 @@ const contact = {
   email: "hi@hankcheng399.tw",
   linkedin: "linkedin.com/in/hankcheng399",
   github: "github.com/hune1228",
-  phone: "+886902336128"
+  phone: "+886902336128",
+  facebook: "www.facebook.com/hank.cheng.399",
+  instagram: "www.instagram.com/hank.cheng.399",
 };
 
 const educationZh = [
