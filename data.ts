@@ -284,6 +284,8 @@ const communityZh = [
     year: "2026",
     items: [
       { role: "製播組組員", organization: "SITCON 2026" },
+      { role: "Staff", organization: "TWNOG 7"},
+      { role: "製播組組員", organization: "COSCUP 2026" },
     ]
   },
   {
@@ -347,6 +349,8 @@ const communityEn = [
     year: "2026",
     items: [
       { role: "Production Team Member", organization: "SITCON 2026" },
+      { role: "Staff", organization: "TWNOG 7"},
+      { role: "Streaming Team Member", organization: "COSCUP 2026" },
     ]
   },
   {
