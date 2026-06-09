@@ -113,9 +113,9 @@ const experienceZh = [
     techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
   },
   {
-    period: "2026年2月2日 ~ 現在",
+    period: "2026年2月2日 ~ 2026年6月30日",
     organization: "菁智科技股份有限公司",
-    position: "網路工程師",
+    position: "高雄網路工程師",
     description: [
       "南部及臺東地區客戶之網路設備維護"
     ]
@@ -192,13 +192,13 @@ const experienceEn = [
     techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
   },
   {
-    period: "February 2, 2026 – Current",
+    period: "February 2, 2026 – June 30, 2026",
     organization: "StepWise Technology Co., Ltd.",
-    position: "Network Engineer",
+    position: "Network Engineer based in Kaohsiung",
     description: [
       "Responsible for network equipment maintenance of customers in southern region and Taitung area"
     ]
-  }
+  },
 ];
 
 const projectsZh = [
