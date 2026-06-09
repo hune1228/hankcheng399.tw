@@ -47,7 +47,8 @@ const educationEn = [
 const experienceZh = [
   {
     period: "2020年10月22日 ~ 2021年2月28日",
-    organization: "國立彰化師範大學 資訊工程學系",
+    organization: "國立彰化師範大學",
+    department: "資訊工程學系",
     position: "電腦教室維護管理",
     description: [
       "重新設計並優化兩間電腦教室 (約 100 台 PC) 的網路拓樸",
@@ -57,7 +58,8 @@ const experienceZh = [
   },
   {
     period: "2021年8月 ~ 2024年7月",
-    organization: "國立彰化師範大學 第十宿舍",
+    organization: "國立彰化師範大學",
+    department: "第十宿舍",
     position: "樓長 / 監控網路整合",
     description: [
       "規劃並協助部署進德與寶山校區宿舍 IP 監控與網路系統 (涵蓋約 3000 名學生)",
@@ -79,7 +81,8 @@ const experienceZh = [
   },
   {
     period: "2023年2月1日 ~ 2025年7月31日",
-    organization: "國立彰化師範大學 性別平等教育委員會",
+    organization: "國立彰化師範大學",
+    department: "性別平等教育委員會",
     position: "第 10 屆學生委員",
     description: [
       "參與校園性別平等政策討論與制定"
@@ -87,8 +90,8 @@ const experienceZh = [
   },
   {
     period: "2019年8月1日 ~ 2025年6月15日",
-    organization: "國立彰化師範大學 圖書與資訊處",
-    department: "網路與資訊系統管理組",
+    organization: "國立彰化師範大學",
+    department: "圖書與資訊處網路與資訊系統管理組",
     position: "電腦維修 / 資訊助理",
     description: [
       "協助維護與排除校園網路基礎設施故障，尖峰時段頻寬約 2 ~ 2.5 Gbps",
@@ -113,6 +116,13 @@ const experienceZh = [
     techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
   },
   {
+    period: "2026年2月1日 ~ 現在",
+    organization: "社團法人臺灣學生聯合會",
+    position: "文書組秘書",
+    description: [
+    ]
+  },
+  {
     period: "2026年2月2日 ~ 2026年6月30日",
     organization: "菁智科技股份有限公司",
     position: "高雄網路工程師",
@@ -125,7 +135,8 @@ const experienceZh = [
 const experienceEn = [
   {
     period: "October 2020 – February 2021",
-    organization: "NCUE Dept of CSIE",
+    organization: "National Changhua University of Education",
+    department: "Department of Computer Science and Information Engineering",
     position: "Computer Lab Administrator",
     description: [
       "Redesigned and optimized network topology for two computer labs (~100 PCs)",
@@ -135,7 +146,8 @@ const experienceEn = [
   },
   {
     period: "July 2021 – July 2024",
-    organization: "NCUE Dormitory 10",
+    organization: "National Changhua University of Education",
+    department: "Dormitory 10",
     position: "Floor Manager / Surveillance Network Integration",
     description: [
       "Planned and deployed IP surveillance and network systems for Jinde and Baoshan campuses (approx. 3000 students)",
@@ -158,7 +170,8 @@ const experienceEn = [
   },
   {
     period: "February 1, 2023 ~ July 31, 2025",
-    organization: "NCUE Gender Equity Education Committee",
+    organization: "National Changhua University of Education",
+    department: "Gender Equity Education Committee",
     position: "10th Student Commissioner",
     description: [
       "Participated in the discussion and formulation of campus gender equality policies"
@@ -166,8 +179,8 @@ const experienceEn = [
   },
   {
     period: "August 2019 – June 2025",
-    organization: "NCUE Library and Information Services",
-    department: "Network and Information System Management Division",
+    organization: "National Changhua University of Education",
+    department: "Network and Information System Management Division, Library and Information Services",
     position: "IT Intern / Computer Technician",
     description: [
       "Assist in maintain and troubleshoot campus-wide network infrastructure. Average peak bandwidth: 2-2.5 Gbps",
@@ -179,7 +192,7 @@ const experienceEn = [
   },
   {
     period: "July 2020 – Current",
-    organization: "NCUE Student Association",
+    organization: "National Changhua University of Education Student Association",
     position: "Network and Service Infrastructure Lead",
     description: [
       "Established on-campus IP-based network and firewall (FortiGate) with 2 Gbps upstream bandwidth",
@@ -190,6 +203,13 @@ const experienceEn = [
       "Managed DNS via Cloudflare and deployed Google Workspace"
     ],
     techStack: ["FortiGate", "Hyper-V", "Proxmox VE", "Cloudflare", "NGINX", "Google Workspace", "Google Sheets API"]
+  },
+  {
+    period: "February 1, 2026 ~ Current",
+    organization: "National Students' Union of Taiwan",
+    position: "Secretary of Documentation Team",
+    description: [
+    ]
   },
   {
     period: "February 2, 2026 – June 30, 2026",
