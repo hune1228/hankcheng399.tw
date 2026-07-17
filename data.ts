@@ -129,6 +129,15 @@ const experienceZh = [
     description: [
       "南部及臺東地區客戶之網路設備維護"
     ]
+  },
+  {
+    period: "2026年7月13日 ~ 現在",
+    organization: "國立臺灣大學",
+    department: "教務處數位學習中心教學科技組",
+    position: "系統工程師",
+    description: [
+      "NTU COOL 系統規劃建置與維護"
+    ]
   }
 ];
 
@@ -219,6 +228,15 @@ const experienceEn = [
       "Responsible for network equipment maintenance of customers in southern region and Taitung area"
     ]
   },
+  {
+    period: "July 13, 2026 ~ Current",
+    organization: "National Taiwan University",
+    department: "Office of Academic Affairs, Digital Learning Center, Division of Learning Technology",
+    position: "Site Reliability Engineer",
+    description: [
+      "Planning, Development, Construction, and Maintenance of NTU COOL Platform"
+    ]
+  }
 ];
 
 const projectsZh = [
